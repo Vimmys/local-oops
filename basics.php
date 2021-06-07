@@ -1,6 +1,7 @@
 <?php
 class hyundai {
-    public $hbranch;
+
+    public $hbranch="Ex";
     public $hcars;
     function __construct(){
       echo  $this->hbranch;
@@ -20,6 +21,5 @@ class hyundai {
  $hcars = new hyucars();
  echo $hcars->hcarname("Verna");
  $hbrz = new hyubranch();
-     echo $hbrz->hbrname();
 
 ?>
